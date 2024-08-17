@@ -13,7 +13,7 @@ public class TodoController {
     private TodoRepository todoRepository;
     @GetMapping(value = "/")
     public String holaMundo(){
-        return "Hola Mundo!!";
+        return "Hola TODO!!";
     }
 
     @GetMapping(value = "/tasks")
